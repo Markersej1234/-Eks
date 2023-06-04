@@ -1,0 +1,152 @@
+###
+POST http://localhost:8080/exam_war_exploded/api/house/create
+Content-Type: application/json
+
+{
+  "address": "banan",
+  "city": "banan",
+  "rooms": 1,
+  "img": "banan"
+}
+
+### Delete Ingredient by id
+DELETE http://localhost:8080/Holm_war_exploded/api/ingredient/delete/1
+Content-Type: application/json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### gør det i den her rækkefølge, hvis jeg ikke er på discord
+
+
+###
+POST http://localhost:8080/Holm_war_exploded/api/ingredient/create
+Content-Type: application/json
+
+{
+  "name": "banadddddn"
+}
+
+###
+POST http://localhost:8080/Holm_war_exploded/api/ingredient/create
+Content-Type: application/json
+
+{
+  "name": "agurk"
+}
+###
+POST http://localhost:8080/Holm_war_exploded/api/recipe/create
+Content-Type: application/json
+
+{
+  "title": "boller i karry",
+  "description": "desc",
+  "instructions": "inst",
+  "userName": "user",
+  "recipeIngredientDTOS": [
+    {
+      "ingredientId": "3",
+      "name": "salt",
+      "amount": "2",
+      "unit": "stk"
+    },
+    {
+      "ingredientId": "4",
+      "name": "banan",
+      "amount": "2",
+      "unit": "stk"
+    }
+  ],
+  "reviewDTOS": []
+}
+###
+GET http://localhost:8080/Holm_war_exploded/api/ingredient/all
+
+###
+GET http://localhost:8080/Holm_war_exploded/api/ingredient/1
+
+###
+GET http://localhost:8080/Holm_war_exploded/api/recipe/all
+
+###
+GET http://localhost:8080/Holm_war_exploded/api/recipe/1
